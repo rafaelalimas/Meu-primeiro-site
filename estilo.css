@@ -1,0 +1,131 @@
+body{
+	background-color: #7C4A8F;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.interior {
+	display: flex;
+	flex-direction: column;
+	width: 1052px;
+	height: 731px;
+	margin-top: 25vh;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.75);
+	align-items: center; 
+
+
+}
+
+.conteiner1 {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.login {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1{
+	  font-family: "Nunito", sans-serif;
+	  font-size: 60px;
+	  
+} 
+
+.imagem__login {
+	width: 325.48px;
+
+}
+
+p {
+	font-family: "Nunito", sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+input {
+	width: 375px;
+	height: 52px;
+	background-color: #E8E8E8;
+	border: none;
+	margin-bottom: 18px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.52);
+	-webkit-box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.52);
+	-moz-box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.52);
+}
+
+button {
+	margin-top: 26px;
+	background-color: #6FB457;
+	width: 375px;
+	height: 64px;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 30px;
+	border: none;
+	color: #fff;
+	box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.52);
+	-webkit-box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.52);
+	-moz-box-shadow: 5px 5px 4px 0px rgba(0,0,0,0.52);
+
+}
+
+button:hover{
+	background-color: hotpink;
+}
+.recuperar__login {
+	margin-top: 41px;
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 350;
+
+}
+
+.conteiner__login {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.rodape {
+	display: flex;
+	flex-direction: row;
+	gap: 14px;
+	margin-top: 100px;
+
+}
+
+.nova__conta {
+	font-size: 15px;
+}
+
+.email {
+	background-image: url('assets/imagens/envelope.svg');
+	background-repeat: no-repeat;
+	background-position: 30px;
+}
+
+.senha {
+	background-image: url('assets/imagens/cadeado.svg');
+	background-repeat: no-repeat;
+	background-position: 30px;
+}
