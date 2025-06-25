@@ -1,0 +1,91 @@
+a {
+    text-decoration: none;
+}
+    
+
+
+body {
+    background-color: #9F0B6E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo__pagina {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.39);
+  font-size: 2.8rem;
+  color: #EBA2F6;
+}
+
+.subtitulo__pagina {
+  font-family: "Kelly Slab", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.39);
+  font-size: 1.8rem;
+   color: #EBA2F6;
+}
+
+.texto__descricao {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+}
+
+.sobre__mim {
+  font-family: "Kelly Slab", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #EBA2F6;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.39);
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.titulo__secao__contatos {
+font-family: "Kelly Slab", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #EBA2F6;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.39);
+  font-size: 2.3rem;
+}
+
+.btn__contatos {
+  font-family: "Kelly Slab", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #EBA2F6;
+  font-size: 1.8rem;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  border: solid 3px #EBA2F6;
+  border-radius: 15px;
+  gap: 2.4rem;
+  width: 650px;
+  margin-bottom: 1.5rem;
+ 
+}
+
+.btn__contatos:hover{
+    background-color: aliceblue;
+    border: none;
+}
+
+.logo__botao {
+    display: flex;
+    width: 2.9rem;
+    padding-left: 1.8rem;
+
+}
+
+.nome__botao {
+    width: 100%;
+    
+
+}
